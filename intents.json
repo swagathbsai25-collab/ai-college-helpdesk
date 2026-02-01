@@ -1,0 +1,73 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning", "good afternoon"],
+      "responses": [
+        "Hello! \ud83d\udc4b How can I help you today?",
+        "Hi there! \ud83d\udc4b How can I assist you?"
+      ]
+    },
+    {
+      "tag": "fees",
+      "patterns": ["fees", "fee", "fee structure", "tuition", "college fees", "how much is the fee", "fee details"],
+      "responses": [
+        "The tuition fee is \u20b950,000 per semester.",
+        "Other fees include library fee \u20b92,000, lab fee \u20b93,000, and sports fee \u20b91,000.",
+        "Total fee per semester is approximately \u20b956,000."
+      ]
+    },
+    {
+      "tag": "admission",
+      "patterns": ["admission", "apply", "join college", "how to apply", "admission process"],
+      "responses": [
+        "Admissions are open! \ud83d\udcca You can fill the form online or visit the admissions office.",
+        "Visit the college website for application forms and important dates."
+      ]
+    },
+    {
+      "tag": "timings",
+      "patterns": ["college timings", "timings", "working hours", "office hours", "college open hours"],
+      "responses": [
+        "The college is open Monday to Friday, 9:00 AM to 5:00 PM.",
+        "Classes run from 9:00 AM to 4:00 PM, Monday to Friday."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["contact", "contact details", "phone", "email", "reach college", "call college", "college email"],
+      "responses": [
+        "You can contact the college at college@email.com or call +91-1234567890."
+      ]
+    },
+    {
+      "tag": "library",
+      "patterns": ["library", "library hours", "library timings", "library open"],
+      "responses": [
+        "The library is open from 9:00 AM to 6:00 PM on weekdays and 10:00 AM to 2:00 PM on Saturdays."
+      ]
+    },
+    {
+      "tag": "cafeteria",
+      "patterns": ["cafeteria", "food", "canteen", "food timings", "canteen hours"],
+      "responses": [
+        "The cafeteria is open from 8:00 AM to 6:00 PM and serves breakfast, lunch, and snacks."
+      ]
+    },
+    {
+      "tag": "hostel",
+      "patterns": ["hostel", "accommodation", "hostel fees", "hostel timings"],
+      "responses": [
+        "The hostel fee is \u20b920,000 per semester. Check-in at 7:00 AM and check-out by 10:00 PM."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you", "exit","thanks","thank you"],
+      "responses": ["No problem anytime \ud83d\ude0a",
+        "Goodbye! Have a great day! \ud83d\ude0a",
+        "See you later! \ud83d\ude0a"
+      ]
+    }
+  ]
+}
