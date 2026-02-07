@@ -26,6 +26,24 @@
       ]
     },
     {
+  "tag": "course",
+  "patterns": [
+    "What courses are offered?",
+    "List of courses",
+    "Available courses",
+    "What programs are available?",
+    "Tell me about courses",
+    "What can I study here?",
+    "Courses offered by the college"
+  ],
+  "responses": [
+    "The college offers undergraduate and postgraduate programs in Engineering, Computer Science, Management, and Science streams.",
+    "We offer various UG and PG courses including Computer Science, Mechanical, Civil, Electronics, and Management programs.",
+    "Our college provides multiple courses designed to meet academic and industry requirements."
+  ]
+},
+
+ {
       "tag": "timings",
       "patterns": ["college timings", "timings", "working hours", "office hours", "college open hours"],
       "responses": [
@@ -71,3 +89,4 @@
     }
   ]
 }
+
